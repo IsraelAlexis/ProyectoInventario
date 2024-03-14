@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loggeo</title>
+    <link rel="stylesheet" href="/assets/style/inventario.css">
+    <link rel="stylesheet" href="/assets/style/iniciosesion.css">
+    <script src="/src/js/controlRegistro.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <a href="https://www.segurossura.com.co/paginas/inicio.aspx">
+            <div class="logo">
+            <img class="imglogo"  src="/assets/img/logo-sura.png" alt="imagen del logo de la empresa">   
+            </div>
+            </a>
+            <nav class="menu">
+                <ul class="lista">
+                    <li class="item">
+                        <a class="link --inicio" href="/src/views/iniciosesion.html">Inicio sesion</a>
+                    </li>
+                    </li>
+                    <li class="item"><a href="/src/views/formulario registro.html" class="link">Registrar</a></li>
+                    <li class="item">
+                        <a class="link" href="/src/views/quienessomos.html">Nosotros</a>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <br>
+        <div class="formlogin">
+            <div class="headerformlogin">
+                <img class="imglogoh" src="/assets/img/logo-sura.png" alt="este es el logo">
+                <h1 class="titulologin">Login</h1>
+            </div>
+            <hr>
+            <form action="../backend/back.htm" method="post">
+                <div class="datos">
+                    <label for="">Usuario:</label>
+                    <br>
+                    <input class="ingresadatos" type="text" name="Usuario">
+                </div>
+                <div class="datos">
+                    <label for="">Contraseña:</label>
+                    <br>
+                    <input class="ingresadatos" type="password" name="password">
+                    <di class="datos --diferente">
+                </div>
+            </form>
+            <a href="/src/views/inventario.html"><button id="INGRESAR" class="botoningresar">INGRESAR </button></a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div class="footerizq">
+                <img src="/assets/img/logo-sura.png" alt="" class="logopie">
+                <p class="pfooter">GRACIAS POR INGRESAR A NUESTRA PAGINA</p>
+            </div>
+            <div class="footerder">
+                <p class="siguenos">SIGUENOS EN :</p>
+                <a href="https://twitter.com/?lang=es" target="_blank"><img src="/assets/img/twitter.png" alt="twitter"
+                        class="redes">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="/assets/img/youtube.png" alt="youtube"
+                        class="redes">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="/assets/img/instagram.png" alt="instagram"
+                        class="redes">
+                </a>
+                <a href="https://www.behance.net/" target="_blank"><img src="/assets/img/behance.png" alt="behance"
+                        class="redes">
+                    <a>
+            </div>
+        </footer>   
+
+    </div>
+</body>
+
+</html>
